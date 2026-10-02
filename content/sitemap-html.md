@@ -1,0 +1,66 @@
+---
+title: "全站站点地图 – 机场主手册"
+description: "机场主手册全站文章与专题目录速查导航。覆盖新手开始、选购技巧、主推对比、28家资料库、客户端教程与故障排查。"
+date: 2026-10-01
+draft: false
+---
+
+# 全站站点地图（Sitemap）
+
+欢迎查阅**机场主手册**全站结构化索引地图。您可以直接点击下方链接快速跳转至任意章节与实操教程：
+
+## 一、新手开始（订阅基础与选型入门）
+- [第一次买机场新手避坑指南：选型、付费与连接四步走](/start/first-purchase-guide/)
+- [什么是机场订阅？代理节点、订阅链接与格式原理解析](/start/what-is-airport-subscription/)
+- [机场买月付还是年付好？新手套餐周期选择与试错成本分析](/start/monthly-vs-yearly/)
+- [机场流量怎么计算？日常查资料与轻度办公需要多少GB](/start/how-traffic-calculated/)
+- [开始配置前需要准备什么？客户端、网络环境与安全须知](/start/prepare-before-setup/)
+
+## 二、机场怎么选（线路、流量与节点）
+- [机场怎么选？从网络协议、线路类型到预算的全面指南](/choose/how-to-choose-airport/)
+- [BGP中转与IEPL专线有什么区别？新手代理线路选择要点](/choose/line-types-explained/)
+- [代理节点怎么选？香港、日本、新加坡等节点延迟与用途对比](/choose/node-selection-guide/)
+- [机场套餐流量怎么选？不同使用场景的流量规划与预算匹配](/choose/traffic-quota-matching/)
+- [新手买机场如何避免跑路坑？稳定度与安全性考量](/choose/avoid-scam-airports/)
+- [多设备办公与家庭代理套餐怎么选？在线设备数与分流规则解析](/choose/multi-device-support/)
+
+## 三、四家主推（场景深度解析）
+- [四家主流机场横向对比：梯子云、暮光加速、飞猫云、微风网络使用场景分析](/recommended/overview/)
+- [梯子云怎么样？¥25/月企业专线套餐与使用场景评测](/recommended/laddercloud/)
+- [暮光加速怎么样？约¥20/月IEPL纯专线与节点特点分析](/recommended/twilight/)
+- [飞猫云怎么样？¥84/年起轻量年付与亚太节点资料解析](/recommended/flycat/)
+- [微风网络怎么样？BGP专线多档位套餐与多场景适配资料](/recommended/breezenet/)
+
+## 四、28家资料库与优惠码
+- [28家机场资料库：官网注册链接、优惠码、价格与节点资料汇总](/airport-directory/)
+- [机场优惠码怎么用？结算页优惠券输入、折扣计算与防坑提示](/coupons/)
+- [常见问题速查：50个新手机场与客户端实操问答完全展开](/faq/)
+
+## 五、客户端教程（多平台保姆级指南）
+- [Windows安装Clash Verge Rev保姆级步骤](/clients/clash-verge-windows-install/)
+- [Clash Verge怎么导入订阅链接？一步一步图文操作](/clients/clash-verge-import-subscription/)
+- [Clash Verge系统代理与TUN模式开启设置方法](/clients/clash-verge-system-proxy-tun/)
+- [安卓手机Clash Meta for Android下载安装与订阅导入保姆级指南](/clients/clash-meta-android-setup/)
+- [iPhone小火箭Shadowrocket安装与美区Apple ID获取保姆级指南](/clients/shadowrocket-ios-install/)
+- [小火箭怎么添加机场订阅？一键导入与手动复制添加保姆级教程](/clients/shadowrocket-import-subscription/)
+- [Windows下v2rayN客户端订阅导入与节点切换教程](/clients/windows-v2rayn-setup/)
+- [安卓手机sing-box客户端订阅配置与分流规则设置指南](/clients/android-singbox-guide/)
+- [Mac苹果电脑Clash Verge Rev配置与系统权限开启指南](/clients/mac-clash-verge-setup/)
+- [订阅转换工具怎么用？不同客户端格式转换原理与防隐私泄露技巧](/clients/subconverter-tutorial/)
+- [规则模式、全局模式与直连模式的区别与日常选择](/clients/client-rule-mode-selection/)
+- [电脑与手机客户端怎么定时更新节点订阅列表？自动化配置指南](/clients/how-to-update-node-subscription/)
+
+## 六、故障排查（连不上网与报错解决）
+- [机场不能连接怎么办？五步快速排查连不上网原因与解决方法](/troubleshooting/airport-connection-failed/)
+- [订阅更新失败怎么办？常见错误提示（401/404/网络错误）与解决步骤](/troubleshooting/subscription-update-failed/)
+- [节点延迟高或全部超时？测试节点连通性与低延迟切换建议](/troubleshooting/node-high-latency-timeout/)
+- [电脑关掉代理后无法上网？Win系统代理残留一键修复方法](/troubleshooting/system-proxy-reset/)
+- [手机无法导入订阅链接？网络权限与链接完整性排查保姆级教程](/troubleshooting/phone-subscription-wont-import/)
+- [节点突然全部不可用？检查套餐到期与流量耗尽的排查指南](/troubleshooting/node-traffic-exhausted/)
+- [TUN模式虚拟网卡报错启动失败的处理方案：服务模式与驱动排错](/troubleshooting/tun-virtual-nic-error/)
+- [代理连接成功但部分网页打不开？DNS污染排查指南](/troubleshooting/dns-leak-resolution/)
+
+## 七、法律与声明
+- [隐私政策](/privacy/)
+- [免责声明](/disclaimer/)
+- [联系 Telegram 官方群组](https://t.me/+bzZZ2fG31ntkY2U1)

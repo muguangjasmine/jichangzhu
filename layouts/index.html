@@ -1,0 +1,165 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero-section text-center py-10 px-4 mb-10 rounded-2xl bg-gradient-to-b from-sky-50 to-white dark:from-slate-800 dark:to-slate-900 border border-sky-100 dark:border-slate-700">
+  <div class="max-w-3xl mx-auto">
+    <span class="badge-pill inline-block text-xs font-semibold px-3 py-1 rounded-full bg-blue-50 text-blue-600 border border-blue-200 dark:bg-blue-950 dark:border-blue-800 dark:text-blue-300 mb-4">
+      面向新手的实用手册
+    </span>
+    <h1 class="hero-h1 text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white leading-relaxed mb-4">
+      欢迎来到机场主手册，我们专注于为第一次接触代理订阅与跨国网络互联的中文读者提供轻量、清晰且完全落地的操作指南。
+    </h1>
+    <p class="hero-sub text-sm md:text-base text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+      本手册核心解决“新手机场指南：套餐怎么选、第一次买机场注意什么、Clash订阅导入步骤、代理节点怎么选，以及节点连接失败怎么办”。我们不做任何 AI 账号解锁或影视流媒体解锁话题，全站定位于纯粹的代理订阅配置与节点选择手册。
+    </p>
+    <div class="hero-btns flex flex-wrap justify-center gap-2.5">
+      <a href="#featured-airports" class="btn btn-primary">查看四家主推推荐</a>
+      <a href="/choose/" class="btn btn-outline">机场怎么选</a>
+      <a href="/recommended/" class="btn btn-secondary">比较4家主推机场</a>
+      <a href="/airport-directory/" class="btn btn-light">查看全部28家机场</a>
+      <a href="/clients/" class="btn btn-ghost">客户端入门</a>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Navigation Table -->
+<section class="quick-nav-section mb-12 bg-white dark:bg-slate-800 p-6 rounded-xl border border-slate-200/80 dark:border-slate-700">
+  <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-4">快速导航：新手最常查找的内容</h2>
+  <div class="table-responsive overflow-x-auto">
+    <table class="w-full text-left text-sm border-collapse">
+      <thead>
+        <tr class="bg-slate-50 dark:bg-slate-700/50 border-b border-slate-200 dark:border-slate-700">
+          <th class="p-3 font-semibold">阶段分类</th>
+          <th class="p-3 font-semibold">你可能遇到的痛点</th>
+          <th class="p-3 font-semibold">快速解决入口</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100 dark:divide-slate-700">
+        <tr>
+          <td class="p-3 font-bold">第一次买</td>
+          <td class="p-3 text-slate-600 dark:text-slate-400">面对几十家服务商不知道哪家靠谱、怕跑路</td>
+          <td class="p-3"><a href="/start/first-purchase-guide/" class="text-blue-600 hover:underline">新手避坑与四步购买法</a></td>
+        </tr>
+        <tr>
+          <td class="p-3 font-bold">套餐选择</td>
+          <td class="p-3 text-slate-600 dark:text-slate-400">纠结买月付还是年付、不知道要用多少流量</td>
+          <td class="p-3"><a href="/start/monthly-vs-yearly/" class="text-blue-600 hover:underline">月付年付试错分析</a> · <a href="/choose/traffic-quota-matching/" class="text-blue-600 hover:underline">流量规划</a></td>
+        </tr>
+        <tr>
+          <td class="p-3 font-bold">导入配置</td>
+          <td class="p-3 text-slate-600 dark:text-slate-400">买了套餐不知道订阅链接如何导入软件</td>
+          <td class="p-3"><a href="/clients/clash-verge-import-subscription/" class="text-blue-600 hover:underline">Clash Verge 导入教程</a> · <a href="/clients/shadowrocket-import-subscription/" class="text-blue-600 hover:underline">小火箭导入教程</a></td>
+        </tr>
+        <tr>
+          <td class="p-3 font-bold">连不上网</td>
+          <td class="p-3 text-slate-600 dark:text-slate-400">节点全部变红、超时、关掉软件后电脑断网</td>
+          <td class="p-3"><a href="/troubleshooting/airport-connection-failed/" class="text-blue-600 hover:underline">五步排错指南</a> · <a href="/troubleshooting/system-proxy-reset/" class="text-blue-600 hover:underline">Win代理残留修复</a></td>
+        </tr>
+        <tr>
+          <td class="p-3 font-bold">优惠省钱</td>
+          <td class="p-3 text-slate-600 dark:text-slate-400">结账时寻找有效折扣码、核实套餐底价</td>
+          <td class="p-3"><a href="/coupons/" class="text-blue-600 hover:underline">机场优惠码怎么用</a> · <a href="/airport-directory/" class="text-blue-600 hover:underline">28家机场资料库</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Featured Airports Cards -->
+<section id="featured-airports" class="featured-section mb-12">
+  <div class="flex items-center justify-between mb-6">
+    <h2 class="text-2xl font-extrabold text-slate-900 dark:text-white">四家主推服务商：不同场景与独立选择</h2>
+    <a href="/recommended/" class="text-xs font-semibold text-blue-600 hover:underline">查看完整横向对比 →</a>
+  </div>
+  
+  <div class="grid gap-6 md:grid-cols-2">
+    <!-- Card 1: 梯子云 -->
+    <div class="card p-6 rounded-xl bg-white dark:bg-slate-800 border-2 border-blue-500/80 shadow-sm relative flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <span class="font-extrabold text-xl text-slate-900 dark:text-white">1. 梯子云 LadderCloud</span>
+          <span class="bg-red-500 text-white text-xs px-2 py-0.5 rounded-full font-bold">优惠码 85折</span>
+        </div>
+        <p class="text-xs text-blue-600 dark:text-blue-400 font-semibold mb-3">主力推荐 · 高速专线与全协议支持</p>
+        <div class="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 mb-4">
+          <p><strong>起步价格/流量：</strong> 约 ¥15/月（80G起），支持灵活按月试用</p>
+          <p><strong>线路与节点：</strong> BGP 入口 + IEPL 专线，覆盖港台日新美韩主流地区</p>
+          <p><strong>适合人群：</strong> 追求全天候低延迟、主力生产力与跨境高频查资料用户</p>
+        </div>
+      </div>
+      <div class="flex gap-2 mt-2">
+        <a href="https://tiziyun.net/#/register?code=wLh2jVfP" target="_blank" rel="sponsored nofollow noopener" class="btn btn-primary flex-1 text-center">进入官网注册</a>
+        <a href="/recommended/laddercloud/" class="btn btn-outline text-center">查看评测</a>
+      </div>
+    </div>
+
+    <!-- Card 2: 暮光加速 -->
+    <div class="card p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm relative flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <span class="font-extrabold text-xl text-slate-900 dark:text-white">2. 暮光加速 Twilight</span>
+          <span class="bg-red-500 text-white text-xs px-2 py-0.5 rounded-full font-bold">优惠码 9折</span>
+        </div>
+        <p class="text-xs text-indigo-600 dark:text-indigo-400 font-semibold mb-3">大流量轻量选型 · 节点丰富稳定</p>
+        <div class="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 mb-4">
+          <p><strong>起步价格/流量：</strong> 约 ¥12/月（100G起），提供年付额外优惠</p>
+          <p><strong>线路与节点：</strong> 优质隧道中转线路，晚高峰稳定性良好</p>
+          <p><strong>适合人群：</strong> 适合多设备日常查阅技术文档、浏览海外资讯与学术检索</p>
+        </div>
+      </div>
+      <div class="flex gap-2 mt-2">
+        <a href="https://muguang.me/#/register?code=xkWd9LzP" target="_blank" rel="sponsored nofollow noopener" class="btn btn-secondary flex-1 text-center">进入官网注册</a>
+        <a href="/recommended/twilight/" class="btn btn-outline text-center">查看评测</a>
+      </div>
+    </div>
+
+    <!-- Card 3: 飞猫云 -->
+    <div class="card p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm relative flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <span class="font-extrabold text-xl text-slate-900 dark:text-white">3. 飞猫云 FlyCat</span>
+          <span class="bg-slate-100 text-slate-700 dark:bg-slate-700 dark:text-slate-200 text-xs px-2 py-0.5 rounded-full">原价享直降</span>
+        </div>
+        <p class="text-xs text-sky-600 dark:text-sky-400 font-semibold mb-3">性价比入门 · 操作简单新手友好</p>
+        <div class="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 mb-4">
+          <p><strong>起步价格/流量：</strong> 约 ¥9.9/月（50G起），极低门槛体验</p>
+          <p><strong>线路与节点：</strong> 优化中转线路，支持一键导入 Clash / 小火箭</p>
+          <p><strong>适合人群：</strong> 预算有限、轻量偶发使用及刚接触代理订阅的新手读者</p>
+        </div>
+      </div>
+      <div class="flex gap-2 mt-2">
+        <a href="https://feimaoyun.com/#/register?code=fm2026" target="_blank" rel="sponsored nofollow noopener" class="btn btn-primary flex-1 text-center">进入官网注册</a>
+        <a href="/recommended/flycat/" class="btn btn-outline text-center">查看评测</a>
+      </div>
+    </div>
+
+    <!-- Card 4: 微风网络 -->
+    <div class="card p-6 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm relative flex flex-col justify-between">
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <span class="font-extrabold text-xl text-slate-900 dark:text-white">4. 微风网络 Breezenet</span>
+          <span class="bg-red-500 text-white text-xs px-2 py-0.5 rounded-full font-bold">优惠码 9折</span>
+        </div>
+        <p class="text-xs text-emerald-600 dark:text-emerald-400 font-semibold mb-3">稳定老牌中转 · 客服与文档完善</p>
+        <div class="space-y-1.5 text-xs text-slate-600 dark:text-slate-300 mb-4">
+          <p><strong>起步价格/流量：</strong> 约 ¥18/月（120G起），支持多端同时在线</p>
+          <p><strong>线路与节点：</strong> 多线 BGP 入口与专线备份，容灾能力强</p>
+          <p><strong>适合人群：</strong> 重视服务持久度、不希望频繁更换订阅链接的长期用户</p>
+        </div>
+      </div>
+      <div class="flex gap-2 mt-2">
+        <a href="https://weifengcloud.com/#/register?code=wf888" target="_blank" rel="sponsored nofollow noopener" class="btn btn-secondary flex-1 text-center">进入官网注册</a>
+        <a href="/recommended/breezenet/" class="btn btn-outline text-center">查看评测</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 50 FAQ summary CTA -->
+<section class="faq-summary-cta text-center p-8 bg-slate-100 dark:bg-slate-800/80 rounded-xl border border-slate-200 dark:border-slate-700">
+  <h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2">50 个高频问题完全展开速查</h2>
+  <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-4 leading-relaxed">
+    如果你遇到了具体的设置或名词疑问，可直接访问我们的常见问题速查专栏，页面汇集了 50 个完全展开、不折叠的专业解答，涵盖新手买机场、月付年付、节点延迟、客户端分流及退款维权全流程。
+  </p>
+  <a href="/faq/" class="btn btn-primary inline-block">查阅 50 问速查专栏 →</a>
+</section>
+{{ end }}

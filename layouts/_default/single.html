@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="article-container bg-white dark:bg-slate-800 rounded-xl p-6 md:p-10 shadow-sm border border-slate-100 dark:border-slate-700/60">
+  <div class="article-breadcrumb text-xs text-slate-500 mb-4">
+    <a href="/" class="hover:underline">首页</a> / 
+    {{ with .Parent }}<a href="{{ .Permalink }}" class="hover:underline">{{ .Title }}</a> / {{ end }}
+    <span>正文</span>
+  </div>
+  
+  <div class="article-content prose dark:prose-invert max-w-none">
+    {{ .Content }}
+  </div>
+
+  <div class="article-footer border-t border-slate-100 dark:border-slate-700/80 pt-6 mt-10 flex justify-between items-center text-xs text-slate-500">
+    <div>更新日期：{{ .Date.Format "2006-01-02" }}</div>
+    <a href="javascript:history.back()" class="text-blue-600 dark:text-blue-400 hover:underline">← 返回上一页</a>
+  </div>
+</article>
+{{ end }}

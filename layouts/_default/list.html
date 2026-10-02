@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="section-container">
+  <div class="section-header mb-8 text-center">
+    <h1 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-3">{{ .Title }}</h1>
+    {{ with .Description }}<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto text-sm">{{ . }}</p>{{ end }}
+  </div>
+
+  <div class="article-grid grid gap-4 md:grid-cols-2">
+    {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="article-card block p-5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 hover:shadow-md transition no-underline">
+        <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-snug">{{ .Title }}</h2>
+        <p class="text-xs text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed mb-3">{{ .Description }}</p>
+        <span class="text-xs text-blue-600 dark:text-blue-400 font-semibold flex items-center gap-1">阅读全文 →</span>
+      </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
