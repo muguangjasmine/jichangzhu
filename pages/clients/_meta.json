@@ -1,0 +1,14 @@
+{
+  "clash-verge-windows-install": "Windows安装Clash Verge Rev",
+  "clash-verge-import-subscription": "Clash Verge导入订阅链接",
+  "clash-verge-system-proxy-tun": "系统代理与TUN模式开启",
+  "clash-meta-android-setup": "安卓手机Clash Meta配置",
+  "shadowrocket-ios-install": "iPhone小火箭安装与美区ID",
+  "shadowrocket-import-subscription": "小火箭添加机场订阅",
+  "windows-v2rayn-setup": "Windows下v2rayN客户端配置",
+  "android-singbox-guide": "安卓sing-box客户端指南",
+  "mac-clash-verge-setup": "Mac电脑Clash Verge配置",
+  "subconverter-tutorial": "订阅转换工具使用详解",
+  "client-rule-mode-selection": "规则/全局/直连模式区别",
+  "how-to-update-node-subscription": "客户端定时自动更新订阅"
+}

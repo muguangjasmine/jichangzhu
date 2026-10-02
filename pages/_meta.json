@@ -1,0 +1,50 @@
+{
+  "index": {
+    "title": "首页",
+    "type": "page"
+  },
+  "start": {
+    "title": "新手开始",
+    "type": "page"
+  },
+  "choose": {
+    "title": "机场怎么选",
+    "type": "page"
+  },
+  "recommended": {
+    "title": "四家主推",
+    "type": "page"
+  },
+  "airport-directory": {
+    "title": "28家资料库",
+    "type": "page"
+  },
+  "clients": {
+    "title": "客户端教程",
+    "type": "page"
+  },
+  "troubleshooting": {
+    "title": "故障排查",
+    "type": "page"
+  },
+  "coupons": {
+    "title": "优惠码",
+    "type": "page"
+  },
+  "faq": {
+    "title": "常见问题",
+    "type": "page"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "display": "hidden"
+  },
+  "disclaimer": {
+    "title": "免责声明",
+    "display": "hidden"
+  },
+  "sitemap-html": {
+    "title": "站点地图",
+    "display": "hidden"
+  }
+}

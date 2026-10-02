@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>机场主手册</title>
+    <link>https://jichangzhu.cyou</link>
+    <description>面向新手的代理订阅与客户端配置实用指南</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 02 Oct 2026 03:03:14 GMT</lastBuildDate>
+    <atom:link href="https://jichangzhu.cyou/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[28家机场资料库：官网注册链接、优惠码、价格与节点资料汇总]]></title>
+      <link>https://jichangzhu.cyou/airport-directory/</link>
+      <guid>https://jichangzhu.cyou/airport-directory/</guid>
+      <description><![CDATA[全网常用28家机场服务商资料库。提供梯子云、暮光加速、飞猫云、微风网络等全部28家官网注册直达链接、优惠码、起步价格与实时搜索筛选。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[新手买机场如何避免跑路坑？稳定度与安全性考量]]></title>
+      <link>https://jichangzhu.cyou/choose/avoid-scam-airports/</link>
+      <guid>https://jichangzhu.cyou/choose/avoid-scam-airports/</guid>
+      <description><![CDATA[揭秘劣质机场常见的跑路套路与超售陷阱。教新手通过域名历史、支付通道、交流社群与月付策略识别靠谱服务商。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[机场怎么选？从网络协议、线路类型到预算的全面指南]]></title>
+      <link>https://jichangzhu.cyou/choose/how-to-choose-airport/</link>
+      <guid>https://jichangzhu.cyou/choose/how-to-choose-airport/</guid>
+      <description><![CDATA[新手如何选择适合自己的机场？系统拆解网络线路架构、协议兼容性、服务商运营背景与预算控制，避免盲目跟风。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[BGP中转与IEPL专线有什么区别？新手代理线路选择要点]]></title>
+      <link>https://jichangzhu.cyou/choose/line-types-explained/</link>
+      <guid>https://jichangzhu.cyou/choose/line-types-explained/</guid>
+      <description><![CDATA[深入浅出剖析BGP中转、公网中继与IEPL/IPLC内网专线的技术区别。帮新手搞懂晚高峰不卡顿的底层原理。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[多设备办公与家庭代理套餐怎么选？在线设备数与分流规则解析]]></title>
+      <link>https://jichangzhu.cyou/choose/multi-device-support/</link>
+      <guid>https://jichangzhu.cyou/choose/multi-device-support/</guid>
+      <description><![CDATA[多台电脑、手机同时使用代理怎么选套餐？详解同时在线设备数限制、路由器透明代理及局域网共享设置技巧。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[代理节点怎么选？香港、日本、新加坡等节点延迟与用途对比]]></title>
+      <link>https://jichangzhu.cyou/choose/node-selection-guide/</link>
+      <guid>https://jichangzhu.cyou/choose/node-selection-guide/</guid>
+      <description><![CDATA[新手如何挑选代理节点？全面对比香港、日本、新加坡、美国等主流节点的物理延迟、网络特性与适合业务，掌握节点分流策略。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[机场套餐流量怎么选？不同使用场景的流量规划与预算匹配]]></title>
+      <link>https://jichangzhu.cyou/choose/traffic-quota-matching/</link>
+      <guid>https://jichangzhu.cyou/choose/traffic-quota-matching/</guid>
+      <description><![CDATA[买机场套餐如何选择合适的流量档位？深度剖析日常办公、技术查资料、多端协同的真实配额需求，避免流量浪费与虚标套路。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[安卓手机sing-box客户端订阅配置与分流规则设置指南：现代极速内核]]></title>
+      <link>https://jichangzhu.cyou/clients/android-singbox-guide/</link>
+      <guid>https://jichangzhu.cyou/clients/android-singbox-guide/</guid>
+      <description><![CDATA[sing-box在安卓Android设备上的安装与配置保姆级教程。从通用配置文件导入、独立Profile创建到低功耗分流设置。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[安卓手机Clash Meta for Android下载安装与订阅导入保姆级指南]]></title>
+      <link>https://jichangzhu.cyou/clients/clash-meta-android-setup/</link>
+      <guid>https://jichangzhu.cyou/clients/clash-meta-android-setup/</guid>
+      <description><![CDATA[安卓手机配置Clash Meta（CMFA）完整教程。包括官方APK架构挑选、权限授予、URL订阅导入、防后台断连与分应用代理设置。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Clash Verge怎么导入订阅链接？一步一步图文实操教程]]></title>
+      <link>https://jichangzhu.cyou/clients/clash-verge-import-subscription/</link>
+      <guid>https://jichangzhu.cyou/clients/clash-verge-import-subscription/</guid>
+      <description><![CDATA[Clash Verge Rev导入机场订阅的保姆级步骤。从复制订阅URL、下载配置、激活卡片到选择节点与开启系统代理。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Clash Verge系统代理与TUN模式开启设置方法：原理、区别与排错]]></title>
+      <link>https://jichangzhu.cyou/clients/clash-verge-system-proxy-tun/</link>
+      <guid>https://jichangzhu.cyou/clients/clash-verge-system-proxy-tun/</guid>
+      <description><![CDATA[详解Clash Verge Rev的系统代理与TUN模式区别。手把手教你安装服务模式、开启TUN虚拟网卡，实现全局软件网络接管。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Windows安装Clash Verge Rev新手保姆级步骤：下载、运行库与初始化]]></title>
+      <link>https://jichangzhu.cyou/clients/clash-verge-windows-install/</link>
+      <guid>https://jichangzhu.cyou/clients/clash-verge-windows-install/</guid>
+      <description><![CDATA[Clash Verge Rev在Windows电脑上的完整安装步骤。涵盖WebView2依赖安装、GitHub安装包下载、管理员授权与中文界面设置。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[规则模式、全局模式与直连模式的区别与日常选择：分流原理解析]]></title>
+      <link>https://jichangzhu.cyou/clients/client-rule-mode-selection/</link>
+      <guid>https://jichangzhu.cyou/clients/client-rule-mode-selection/</guid>
+      <description><![CDATA[Clash与小火箭中的规则模式（Rule）、全局模式（Global）与直连模式（Direct）深入解析。掌握科学上网分流与流量节省秘诀。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[电脑与手机客户端怎么定时更新节点订阅列表？自动化配置指南]]></title>
+      <link>https://jichangzhu.cyou/clients/how-to-update-node-subscription/</link>
+      <guid>https://jichangzhu.cyou/clients/how-to-update-node-subscription/</guid>
+      <description><![CDATA[掌握Clash Verge、小火箭与v2rayN的订阅自动定时更新设置。解决节点长期不更新导致的服务器失联与IP失效难题。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Mac苹果电脑Clash Verge Rev配置与系统权限开启指南：M芯片与Intel适配]]></title>
+      <link>https://jichangzhu.cyou/clients/mac-clash-verge-setup/</link>
+      <guid>https://jichangzhu.cyou/clients/mac-clash-verge-setup/</guid>
+      <description><![CDATA[macOS苹果电脑安装配置Clash Verge Rev图文指南。涵盖Apple Silicon架构选择、系统网络扩展授权、订阅导入与系统代理设置。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[小火箭怎么添加机场订阅？一键导入与手动复制添加保姆级教程]]></title>
+      <link>https://jichangzhu.cyou/clients/shadowrocket-import-subscription/</link>
+      <guid>https://jichangzhu.cyou/clients/shadowrocket-import-subscription/</guid>
+      <description><![CDATA[Shadowrocket（小火箭）导入机场订阅完整图文教程。详解Safari一键直导、手动添加Subscribe类型、节点测速与全局路由配置。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[iPhone小火箭Shadowrocket安装与美区Apple ID获取保姆级指南]]></title>
+      <link>https://jichangzhu.cyou/clients/shadowrocket-ios-install/</link>
+      <guid>https://jichangzhu.cyou/clients/shadowrocket-ios-install/</guid>
+      <description><![CDATA[苹果iOS用户如何下载正版Shadowrocket（小火箭）？手把手教你注册美区Apple ID、购买兑换码、认准正版开发者与防封号技巧。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[订阅转换工具怎么用？不同客户端格式转换原理与防隐私泄露技巧]]></title>
+      <link>https://jichangzhu.cyou/clients/subconverter-tutorial/</link>
+      <guid>https://jichangzhu.cyou/clients/subconverter-tutorial/</guid>
+      <description><![CDATA[详解订阅转换（Subconverter）工具的使用方法与安全须知。教新手如何将通用订阅安全转换为Clash、小火箭或sing-box格式。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Windows下v2rayN客户端订阅导入与节点切换教程：轻量极简备用方案]]></title>
+      <link>https://jichangzhu.cyou/clients/windows-v2rayn-setup/</link>
+      <guid>https://jichangzhu.cyou/clients/windows-v2rayn-setup/</guid>
+      <description><![CDATA[Windows经典轻量代理客户端v2rayN配置指南。涵盖Core内核下载、订阅分组添加、自动更新、系统代理开关与路由PAC模式。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[机场优惠码怎么用？结算页优惠券输入、折扣计算与防坑提示]]></title>
+      <link>https://jichangzhu.cyou/coupons/</link>
+      <guid>https://jichangzhu.cyou/coupons/</guid>
+      <description><![CDATA[购买机场套餐如何正确使用优惠码？详细解析优惠券兑换步骤、满减折扣生效验证、常见无效原因与避坑省钱秘籍。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[常见问题速查：50个新手机场与客户端核心问答完全展开]]></title>
+      <link>https://jichangzhu.cyou/faq/</link>
+      <guid>https://jichangzhu.cyou/faq/</guid>
+      <description><![CDATA[50个新手机场、套餐流量、月付年付、Clash Verge、小火箭与网络故障排查高频问答。完全展开直读，无折叠手风琴，直接给可执行步骤。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[微风网络怎么样？BGP专线多档位套餐与多场景适配资料]]></title>
+      <link>https://jichangzhu.cyou/recommended/breezenet/</link>
+      <guid>https://jichangzhu.cyou/recommended/breezenet/</guid>
+      <description><![CDATA[微风网络(Breezenet)怎么样？整理其BGP专线多档位套餐、复杂网络分流能力与注册资料，提供官网选型指南。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[飞猫云怎么样？¥84/年起轻量年付与亚太节点资料解析]]></title>
+      <link>https://jichangzhu.cyou/recommended/flycat/</link>
+      <guid>https://jichangzhu.cyou/recommended/flycat/</guid>
+      <description><![CDATA[飞猫云(FlyCat)怎么样？整理参考价格¥84/年起、约50GB/月流量、IEPL内网专线与优惠码flycat888资料，提供官网注册指南。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[梯子云怎么样？¥25/月企业专线套餐与使用场景评测]]></title>
+      <link>https://jichangzhu.cyou/recommended/laddercloud/</link>
+      <guid>https://jichangzhu.cyou/recommended/laddercloud/</guid>
+      <description><![CDATA[梯子云(LadderCloud)怎么样？详细整理参考价格¥25/月、125GB/月流量、企业专线线路与优惠码tiziyun资料，提供官网注册指南。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[四家主流机场横向对比：梯子云、暮光加速、飞猫云、微风网络使用场景分析]]></title>
+      <link>https://jichangzhu.cyou/recommended/overview/</link>
+      <guid>https://jichangzhu.cyou/recommended/overview/</guid>
+      <description><![CDATA[客观对比梯子云、暮光加速、飞猫云、微风网络四家服务商的资费、线路、适合人群与优缺点。不排主观速度先后，精准匹配选型。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[暮光加速怎么样？约¥20/月IEPL纯专线与节点特点分析]]></title>
+      <link>https://jichangzhu.cyou/recommended/twilight/</link>
+      <guid>https://jichangzhu.cyou/recommended/twilight/</guid>
+      <description><![CDATA[暮光加速(Twilight)怎么样？整理参考价格约¥20/月、约120GB/月流量、IEPL纯专线与优惠码mm88资料，提供官网注册指南。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[全站站点地图 – 机场主手册]]></title>
+      <link>https://jichangzhu.cyou/sitemap-html/</link>
+      <guid>https://jichangzhu.cyou/sitemap-html/</guid>
+      <description><![CDATA[机场主手册全站文章与专题目录速查导航。覆盖新手开始、选购技巧、主推对比、28家资料库、客户端教程与故障排查。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[第一次买机场新手避坑指南：选型、付费与连接四步走]]></title>
+      <link>https://jichangzhu.cyou/start/first-purchase-guide/</link>
+      <guid>https://jichangzhu.cyou/start/first-purchase-guide/</guid>
+      <description><![CDATA[新手第一次买机场怎么选？从避开年付陷阱、识别原生订阅、测试本地网络到安全支付，提供清晰实操步骤与内链指引。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[机场流量怎么计算？日常查资料与轻度办公需要多少GB]]></title>
+      <link>https://jichangzhu.cyou/start/how-traffic-calculated/</link>
+      <guid>https://jichangzhu.cyou/start/how-traffic-calculated/</guid>
+      <description><![CDATA[详细拆解机场套餐流量计算规则。涵盖网页浏览、代码查阅、邮件收发与倍率换算，帮助新手精准匹配流量套餐。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[机场买月付还是年付好？新手套餐周期选择与试错成本分析]]></title>
+      <link>https://jichangzhu.cyou/start/monthly-vs-yearly/</link>
+      <guid>https://jichangzhu.cyou/start/monthly-vs-yearly/</guid>
+      <description><![CDATA[机场套餐买月付还是年付更划算？深入对比月付的试错优势与年付的折扣陷阱，帮助新手合理规划网络服务预算。]]></description>
+      <pubDate>Fri, 02 Oct 2026 03:03:14 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

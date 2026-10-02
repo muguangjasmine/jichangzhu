@@ -1,0 +1,29 @@
+{
+  "name": "jichangzhu-cyou",
+  "version": "1.0.0",
+  "private": true,
+  "description": "机场主手册 - 2026新手机场指南、怎么选套餐、导入订阅与选择节点",
+  "scripts": {
+    "postinstall": "node patch-loader.js",
+    "generate": "node scripts/generate-all.js",
+    "dev": "next dev",
+    "build": "node patch-loader.js && next build && node scripts/post-build.js",
+    "export": "node patch-loader.js && next build && node scripts/post-build.js",
+    "verify": "node scripts/verify-site.js",
+    "preview": "node scripts/serve.js",
+    "serve": "node scripts/serve.js",
+    "zip": "node scripts/create-zip.js"
+  },
+  "dependencies": {
+    "next": "14.2.23",
+    "nextra": "2.13.4",
+    "nextra-theme-docs": "2.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.7.2"
+  }
+}

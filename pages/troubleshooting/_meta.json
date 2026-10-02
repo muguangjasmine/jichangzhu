@@ -1,0 +1,10 @@
+{
+  "airport-connection-failed": "机场不能连接怎么办？五步排查",
+  "subscription-update-failed": "订阅更新失败怎么办？",
+  "node-high-latency-timeout": "节点延迟高或全部超时排查",
+  "system-proxy-reset": "电脑关掉代理后无法上网修复",
+  "phone-subscription-wont-import": "手机无法导入订阅链接排查",
+  "node-traffic-exhausted": "节点突然不可用？检查流量耗尽",
+  "tun-virtual-nic-error": "TUN模式虚拟网卡报错处理",
+  "dns-leak-resolution": "代理连接成功但网页打不开（DNS排查）"
+}
